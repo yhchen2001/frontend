@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <style>
+        body {
+            background: rgb(32, 35, 75);
+            color: white;
+            font-size: 2em;
+            text-align: center;
+        }
+        h1 {
+            font-size: 1em;
+        }
+        canvas{
+            border: solid .2em white;
+            height: 90vh;  /* 90 persent of view height*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Tetris</h1>
+    <div id="score"></div>
+    <canvas id="tetris" width="240" height="400" style="border: 1px solid;"></canvas>
+    <canvas id="next" width="40" height="40" style="border: 1px solid;"></canvas>
+    <script src="tetris.js"></script>
+</body>
+</html>
